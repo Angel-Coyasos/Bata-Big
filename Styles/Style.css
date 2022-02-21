@@ -14,7 +14,7 @@
     --warm-black: 201E1C;
     --balck: #282623;
     --grey: #BABABA;
-    --of-white: #FAF8F7;
+    --off-white: #FAF8F7;
     --just-white: #FFFFFF;
     --sombra-white: 0px 4px 8px rgba(89, 73, 30, 0.16);
     --sombra-black: 0px 4px 8px rgba(0, 0, 0, 0.16);
@@ -80,7 +80,7 @@ header img {
     padding: 15px;
     width: 229px;
     height: 48px;
-    background-color:var(--of-white);
+    background-color:var(--off-white);
     /* Sombra */
     box-Shadow: var(--sombra-white);
     border: none;
@@ -96,4 +96,23 @@ header img {
     height: 8px;
     margin-left: 10px;
     background-image: url(../assets/icons/down-arrow.svg)
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.header--title-container--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
 }
