@@ -6,7 +6,7 @@
     5- Otros
 */
 
-root {
+:root {
     --bitcoin-orange: #F7931A;
     --soft-orange: #FFE9D5;
     --secundary-blue: #1A9AF7;
@@ -18,7 +18,7 @@ root {
     --just-white: #FFFFFF;
     --sombra-white: 0px 4px 8px rgba(89, 73, 30, 0.16);
     --sombra-black: 0px 4px 8px rgba(0, 0, 0, 0.16);
-    --color-sombragit: #C4C4C4;
+    --color-sombra: #C4C4C4;
 }
 
 * {
@@ -57,4 +57,17 @@ header img {
     margin-top: 40px;
     text-align: center;
     align-self: center;
+}
+.header--title-container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.header--title-container p {
+    margin-top:25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem0;
+    color: var(--soft-orange)
 }
