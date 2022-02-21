@@ -16,6 +16,9 @@ root {
     --grey: #BABABA;
     --of-white: #FAF8F7;
     --just-white: #FFFFFF;
+    --sombra-white: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    --sombra-black: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    --color-sombragit: #C4C4C4;
 }
 
 * {
