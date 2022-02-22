@@ -11,7 +11,7 @@
     --soft-orange: #FFE9D5;
     --secundary-blue: #1A9AF7;
     --soft-blue: #E7F5FF;
-    --warm-black: 201E1C;
+    --warm-black: #201E1C;
     --black: #282623;
     --grey: #BABABA;
     --off-white: #FAF8F7;
@@ -265,14 +265,36 @@ main {
     width: 196px;
     height: 31px;
     margin-top: 10px;
-    background-color: var(--soft-orange);
+    padding: 8px;
     border-radius: 8px;
+    background-color: var(--soft-orange);
 }
 .commissions-table--date {
     display: inline-block;
     width: 189px;
     height: 31px;
     margin-top: 10px;
-    background-color: var(--soft-blue);
+    padding: 8px;
     border-radius: 8px;
+    background-color: var(--soft-blue);
+}
+.currency-table--date p {
+    width: 157px;
+    height: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--warm-black);
+}
+.commissions-table--date p {
+    width: 157px;
+    height: 15px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--warm-black);
 }
