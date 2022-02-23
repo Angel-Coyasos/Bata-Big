@@ -1,2 +1,2 @@
 # Bata-Big
-Proyectp responsibe desing: maquetacion mobile first
+Proyectp responsibe desing: maquetacion mobile firs
